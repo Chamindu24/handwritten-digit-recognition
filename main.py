@@ -311,7 +311,7 @@ def main():
     else:
         model = train_model()
     
-    # Launch GUI
+    # Launch GUI for correction
     create_gui(model)
 
 if __name__ == '__main__':
